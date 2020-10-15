@@ -1,0 +1,116 @@
+$backgroundColor : rgba(200, 200, 200, 0.25);
+$backgroundColorHover: rgba(200, 200, 200, 0.33);
+@import './nav';
+.year-value {
+    width: 100px !important;
+}
+.days {
+    &:hover {
+        background-color: $backgroundColor;
+        cursor: pointer;
+        transition: 0.25s;
+    }
+}
+.week-day {
+    padding: 0;
+    background-color: rgba(200, 200, 200, 0.4);
+}
+.fa-list-ul {
+    &:hover {
+        background: $backgroundColor;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+}
+
+.days-year {
+    height: 40px !important;
+}
+.badge {
+    font-size: 18px !important;
+}
+
+.table td {
+    border: 2px solid rgba(200, 200, 200, 0.2);
+}
+.format-options {
+    text-decoration:inherit;
+    background-color: rgba(200, 200, 200, 0.3);
+    padding: 6px;
+    border-radius: 7px;
+    &:hover {
+        background-color:$backgroundColorHover;
+    }
+}
+
+.nav-link {
+    text-decoration: inherit ;
+    color: #383838;
+    &:hover {
+        text-decoration:inherit ;
+    }
+}
+
+.signup {
+    background-color: #222;
+}
+
+.signup-form {
+    background-color: #181818;
+    border-radius: 20px;
+    color: #c1c1c1;
+}
+
+.today {
+    background-color: rgba(44, 175, 41, 0.25);
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+    animation-name: dropdown;
+    animation-duration: 0.5s;
+  }
+  
+  @keyframes dropdown {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+  }
+
+.form {
+    opacity:0;
+    
+    &:hover {
+        opacity: 1;
+        
+    }
+}
+.event {
+    box-shadow: 0px 4px 10px 0px rgba(0,0,0,0.2);
+}
+
+  ul li{
+    cursor: pointer;
+    &:hover {
+        background-color: rgba(0, 0, 0, 0.1);
+    }
+}
+
+@media screen and (min-width:1227.98px) {
+    .days {
+        height: 130px;
+    }
+}

@@ -1,0 +1,125 @@
+.navLinks:hover {
+  border-radius: 3px;
+  cursor: pointer;
+  background: rgba(200, 200, 200, 0.25);
+}
+
+.year-value {
+  width: 100px !important;
+}
+
+.days:hover {
+  background-color: rgba(200, 200, 200, 0.25);
+  cursor: pointer;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+}
+
+.week-day {
+  padding: 0;
+  background-color: rgba(200, 200, 200, 0.4);
+}
+
+.fa-list-ul:hover {
+  background: rgba(200, 200, 200, 0.25);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.days-year {
+  height: 40px !important;
+}
+
+.badge {
+  font-size: 18px !important;
+}
+
+.table td {
+  border: 2px solid rgba(200, 200, 200, 0.2);
+}
+
+.format-options {
+  text-decoration: inherit;
+  background-color: rgba(200, 200, 200, 0.3);
+  padding: 6px;
+  border-radius: 7px;
+}
+
+.format-options:hover {
+  background-color: rgba(200, 200, 200, 0.33);
+}
+
+.nav-link {
+  text-decoration: inherit;
+  color: #383838;
+}
+
+.nav-link:hover {
+  text-decoration: inherit;
+}
+
+.signup {
+  background-color: #222;
+}
+
+.signup-form {
+  background-color: #181818;
+  border-radius: 20px;
+  color: #c1c1c1;
+}
+
+.today {
+  background-color: rgba(44, 175, 41, 0.25);
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  y: 20 !important;
+  min-width: 160px;
+  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  -webkit-animation-name: dropdown;
+          animation-name: dropdown;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+}
+
+@-webkit-keyframes dropdown {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes dropdown {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+ul li {
+  cursor: pointer;
+}
+
+ul li:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (min-width: 1227.98px) {
+  .days {
+    height: 130px;
+  }
+}
+/*# sourceMappingURL=calender.css.map */
